@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "SafeGuard",
-    "slug": "safeguard-app",
+    "slug": "safeguard",
     "scheme": "safeguard",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,6 +19,13 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "6a371942-949e-46e0-877b-24792e65d584"
+      }
+    },
+    "owner": "smtt"
   }
 }
