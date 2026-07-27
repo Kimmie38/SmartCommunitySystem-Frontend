@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "SafeGuard",
+    "slug": "safeguard-app",
+    "scheme": "safeguard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.safeguard.app"
+    },
+    "android": {
+      "package": "com.safeguard.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#14213D"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
